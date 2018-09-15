@@ -1,0 +1,45 @@
+
+<!--pages/mine/mine.wxml-->
+<view class="header">
+  <image class='background' src='/images/background.png' mode='widthFix'></image>
+  <view class="userbutton">
+    <image class="avatar" src="/images/logo.png"></image>
+  </view> 
+  <text class='name'>南京青春盛焰照相馆</text>
+</view>
+
+<view class='info'>
+  <view class='item'  bindtap='onAddrTap'>
+    <image src="/images/mine/addr.png" class='address'></image>
+    <text>南京市玄武区南京林业大学内 【点击导航】</text>
+  </view>
+  <view class='item'>
+    <image src="/images/mine/clock.png" class='address'></image>
+    <text>9:00-21:00</text>
+  </view>
+  <view class='item' bindtap='onPhoneTap'>
+    <image src="/images/mine/phone.png" class='address'></image>
+    <text>18261149716 【点击拨号】</text>
+  </view>
+</view>
+
+<view class='instruction'>
+  <text decode='true'>&ensp;&nbsp;南京青春盛宴照相馆,公司简介一般包括以下几个方面：1. 公司概况：这里面可以包括注册时间，注册资本，公司性质，技术力量，规模，员工人数，员工素质等；2. 公司发展状况：公司的发展速度，有何成绩，有何荣誉称号等；3. 公司文化：公司的目标，理念，宗旨，使命，愿景，寄语等；4. 公司主要产品：性能，特色，创新，超前；5. 销售业绩及网络：销售量，各地销售点等；6. 售后服务：主要是公司售后服务的承诺。</text>
+</view>
+
+<view class="service">
+    <image src="/images/mine/service.png"></image>
+    <view class='phone' bindtap="onPhoneTap">
+      <text>电话咨询</text>
+    </view>
+
+    <view class='concat'>
+      <button class="cs_button" open-type="contact">
+        <text>微信咨询</text>
+      </button>
+    </view>
+    <view class='copyright'>
+      <text>Copyright © 南京青春盛焰 All Rights Reserved</text>
+    </view>
+  </view>
+
